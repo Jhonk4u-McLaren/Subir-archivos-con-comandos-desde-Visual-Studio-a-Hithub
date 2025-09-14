@@ -1,0 +1,34 @@
+he tenido inconvenientes para subir archivos y modificaciones a GitHub con los códigos: 
+
+git init
+git status
+git push -m <nombre de commit>
+
+y me apoye del siguiente video: 
+https://www.youtube.com/watch?v=44ziZ12rJwU 
+
+así que tuve que instalar Git de la siguiente pagina web para que los comandos me funcionaran: 
+https://git-scm.com/downloads/win 
+
+luego tuve otro inconveniente para vincular Git local con GitHub y utilice el comando que mismo GitHub lo brinda y es este: 
+git remote add origin https://github.com/Jhonk4u-McLaren/Subir-archivos-con-comandos-desde-Visual-Studio-a-Hithub.git
+
+
+
+EN RESUMEN: para poder agregar archivos a GitHub desde Visual Studio Code se sigue estos pasos:
+
+ 1.- Se instala Git local: https://git-scm.com/downloads/win 
+
+ 2.- Se abre Visual Studio Code y se abre la terminal para escribir el siguiente comando:
+
+	git init 
+
+	git remote add origin <Ruta del repositorio de GitHub> 		/Para vincular tu repositorio local con Github
+
+	git status 							/para saber el estado/
+
+	git add . 							/para agregar a git local lo trabajado/
+
+	git status 							/para saber que todo lo trabajado este agregado a Git local/
+
+	git push -m <Nombre del commit>					/para agregar los archivos a GitHub y con su commit (comentario)
