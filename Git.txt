@@ -31,4 +31,7 @@ EN RESUMEN: para poder agregar archivos a GitHub desde Visual Studio Code se sig
 
 	git status 							/para saber que todo lo trabajado este agregado a Git local/
 
-	git push -m <Nombre del commit>					/para agregar los archivos a GitHub y con su commit (comentario)
+
+	git commit -m <Nombre del commit>					/para agregar los archivos a GitHub y con su commit (comentario)
+
+	git push 							para subir todo
