@@ -35,3 +35,22 @@ EN RESUMEN: para poder agregar archivos a GitHub desde Visual Studio Code se sig
 	git commit -m <Nombre del commit>					/para agregar los archivos a GitHub y con su commit (comentario)
 
 	git push 							para subir todo
+
+
+PARA SUBIR OTRO PROYECTO Y CAMBIAR EL DESTINO
+
+	git init 
+	git add . 
+	git commit -m "nombre del comit"
+	git remote add origin https://github.com/Jhonk4u-McLaren/xxxxxx.git
+	git push 							//aqui sale un error por ende te da un codigo como  git push --set-upstream origin master
+	git push --set-upstream origin master        // para corregir
+	git push 									// ahi sale todo en orden 
+
+PARA CREAR LINK DE LA PAGINA
+	ir a SETTING - PAGES - change to MASTER and press SAVE  
+	esperar 2 - 3 min y te dará un link 
+
+	
+	
+
